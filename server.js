@@ -24,6 +24,7 @@ app.configure(function(){
   app.use(express.static(__dirname+'/public'));
 });
 
+
 mongoose.connect('mongodb://localhost/multivision');
 var db = mongoose.connection;
 
