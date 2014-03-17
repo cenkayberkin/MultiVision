@@ -24,8 +24,12 @@ app.configure(function(){
   app.use(express.static(__dirname+'/public'));
 });
 
+if(env === 'development'){
+  mongoose.connect('mongodb://localhost/multivision');
+}else{
+  mongoose.connect('mongodb://cenk:blahblah@ds035438.mongolab.com:35438/multivision');
+}
 
-mongoose.connect('mongodb://localhost/multivision');
 var db = mongoose.connection;
 
 db.on('error', console.error.bind(console,'connection error...'));
@@ -52,6 +56,6 @@ app.get('*',function(req,res){
 });
 
 
-var port = 3030;
+var port = process.env.PORT || 3030;
 app.listen(port);
 console.log('Listening on port ' + port +'...' );
