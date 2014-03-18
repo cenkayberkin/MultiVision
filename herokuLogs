@@ -1,0 +1,95 @@
+2014-03-17T22:57:55.018073+00:00 heroku[api]: Enable Logplex by cenkayberkin@gmail.com
+2014-03-17T22:57:55.018145+00:00 heroku[api]: Release v2 created by cenkayberkin@gmail.com
+2014-03-17T22:58:43.076957+00:00 heroku[api]: Add NODE_ENV config by cenkayberkin@gmail.com
+2014-03-17T22:58:43.077045+00:00 heroku[api]: Release v3 created by cenkayberkin@gmail.com
+2014-03-17T22:59:37+00:00 heroku[slug-compiler]: Slug compilation started
+2014-03-17T23:00:21+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-03-17T23:00:21.004669+00:00 heroku[api]: Deploy 26bc455 by cenkayberkin@gmail.com
+2014-03-17T23:00:20.869492+00:00 heroku[api]: Scale to web=1 by cenkayberkin@gmail.com
+2014-03-17T23:00:25.203134+00:00 heroku[web.1]: Starting process with command `node server.js`
+2014-03-17T23:00:21.004853+00:00 heroku[api]: Release v4 created by cenkayberkin@gmail.com
+2014-03-17T23:00:26.746084+00:00 app[web.1]: connect.multipart() will be removed in connect 3.0
+2014-03-17T23:00:26.746253+00:00 app[web.1]: visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+2014-03-17T23:00:26.774025+00:00 app[web.1]: Listening on port 42965...
+2014-03-17T23:00:26.746701+00:00 app[web.1]: connect.limit() will be removed in connect 3.0
+2014-03-17T23:00:26.847625+00:00 app[web.1]: multivision db opened
+2014-03-17T23:00:27.306496+00:00 heroku[web.1]: State changed from starting to up
+2014-03-17T23:00:29.530650+00:00 heroku[web.1]: Starting process with command `node server.js`
+2014-03-17T23:00:33.930612+00:00 app[web.1]: Listening on port 49020...
+2014-03-17T23:00:33.879133+00:00 app[web.1]: connect.multipart() will be removed in connect 3.0
+2014-03-17T23:00:33.879359+00:00 app[web.1]: visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+2014-03-17T23:00:33.879924+00:00 app[web.1]: connect.limit() will be removed in connect 3.0
+2014-03-17T23:00:34.120428+00:00 app[web.1]: multivision db opened
+2014-03-17T23:00:37.555117+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2014-03-17T23:00:37.774571+00:00 app[web.1]: [90mGET / [32m200 [90m400ms - 706b[0m
+2014-03-17T23:00:38.034195+00:00 app[web.1]: [90mGET /css/bootstrap.css [32m200 [90m9ms - 118.38kb[0m
+2014-03-17T23:00:38.267865+00:00 heroku[router]: at=info method=GET path=/css/site.css host=obscure-meadow-1247.herokuapp.com request_id=9ffd94e1-4829-49f6-973e-6c6425c40f41 fwd="92.44.31.242" dyno=web.1 connect=6ms service=84ms status=200 bytes=283
+2014-03-17T23:00:38.262774+00:00 heroku[router]: at=info method=GET path=/vendor/angular-resource/angular-resource.js host=obscure-meadow-1247.herokuapp.com request_id=b14fbd76-ea59-43bf-a1e8-4ab2afacd79b fwd="92.44.31.242" dyno=web.1 connect=11ms service=49ms status=200 bytes=23712
+2014-03-17T23:00:38.260596+00:00 app[web.1]: [90mGET /css/site.css [32m200 [90m82ms - 0b[0m
+2014-03-17T23:00:38.175256+00:00 app[web.1]: [90mGET /vendor/toastr/toastr.css [32m200 [90m3ms - 6.62kb[0m
+2014-03-17T23:00:38.259951+00:00 app[web.1]: [90mGET /vendor/angular-resource/angular-resource.js [32m200 [90m7ms - 22.87kb[0m
+2014-03-17T23:00:38.280669+00:00 app[web.1]: [90mGET /vendor/jquery/dist/jquery.js [32m200 [90m9ms - 239.22kb[0m
+2014-03-17T23:00:38.324390+00:00 heroku[router]: at=info method=GET path=/vendor/angular/angular.js host=obscure-meadow-1247.herokuapp.com request_id=a8a7a928-1768-49f7-8f70-6fd707823a28 fwd="92.44.31.242" dyno=web.1 connect=5ms service=116ms status=200 bytes=741861
+2014-03-17T23:00:38.316100+00:00 heroku[router]: at=info method=GET path=/vendor/jquery/dist/jquery.js host=obscure-meadow-1247.herokuapp.com request_id=8c00089a-5ccd-451a-9576-3963aea24c32 fwd="92.44.31.242" dyno=web.1 connect=17ms service=28ms status=200 bytes=245255
+2014-03-17T23:00:38.358364+00:00 heroku[router]: at=info method=GET path=/vendor/angular-route/angular-route.js host=obscure-meadow-1247.herokuapp.com request_id=854377b6-cff5-4150-920a-c85e4c303d76 fwd="92.44.31.242" dyno=web.1 connect=2ms service=6ms status=200 bytes=32720
+2014-03-17T23:00:38.444587+00:00 heroku[router]: at=info method=GET path=/app/app.js host=obscure-meadow-1247.herokuapp.com request_id=00d83a5c-648f-48d9-a0bc-44516cf3b937 fwd="92.44.31.242" dyno=web.1 connect=3ms service=8ms status=200 bytes=664
+2014-03-17T23:00:38.317112+00:00 app[web.1]: [90mGET /vendor/angular/angular.js [32m200 [90m64ms - 724.19kb[0m
+2014-03-17T23:00:38.343311+00:00 app[web.1]: [90mGET /vendor/angular-route/angular-route.js [32m200 [90m2ms - 31.67kb[0m
+2014-03-17T23:00:38.432166+00:00 app[web.1]: [90mGET /app/app.js [32m200 [90m2ms - 378b[0m
+2014-03-17T23:00:40.630109+00:00 heroku[router]: at=info method=GET path=/partials/main host=obscure-meadow-1247.herokuapp.com request_id=81363865-6971-40c7-a018-ad9229545439 fwd="92.44.31.242" dyno=web.1 connect=1ms service=28ms status=200 bytes=220
+2014-03-17T23:00:40.626448+00:00 app[web.1]: [90mGET /partials/main [32m200 [90m27ms - 42b[0m
+2014-03-17T23:00:40.240206+00:00 heroku[web.1]: Process exited with status 143
+2014-03-17T23:00:40.818762+00:00 app[web.1]: [90mGET /favicon.ico [32m200 [90m1ms - 706b[0m
+2014-03-17T23:00:40.836078+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=obscure-meadow-1247.herokuapp.com request_id=8f4e32ae-4df3-4eb0-a484-6bf1fa6f7762 fwd="92.44.31.242" dyno=web.1 connect=10ms service=18ms status=200 bytes=886
+2014-03-17T23:00:38.181251+00:00 heroku[router]: at=info method=GET path=/vendor/toastr/toastr.css host=obscure-meadow-1247.herokuapp.com request_id=10813df3-b902-4bfc-a6c9-ae7c59ffa641 fwd="92.44.31.242" dyno=web.1 connect=1ms service=6ms status=200 bytes=7065
+2014-03-17T23:01:37.489170+00:00 heroku[api]: Scale to web=1 by cenkayberkin@gmail.com
+2014-03-17T23:01:54.638915+00:00 app[web.1]: [90mGET / [32m200 [90m4ms - 706b[0m
+2014-03-17T23:01:54.816998+00:00 heroku[router]: at=info method=GET path=/vendor/toastr/toastr.css host=obscure-meadow-1247.herokuapp.com request_id=b1425a6e-88b2-48bf-a91a-c00810e12032 fwd="92.44.31.242" dyno=web.1 connect=1ms service=9ms status=200 bytes=7065
+2014-03-17T23:01:54.822674+00:00 heroku[router]: at=info method=GET path=/css/site.css host=obscure-meadow-1247.herokuapp.com request_id=dff77a10-5f7b-417f-9a52-c509027b2328 fwd="92.44.31.242" dyno=web.1 connect=3ms service=10ms status=200 bytes=283
+2014-03-17T23:01:54.822666+00:00 heroku[router]: at=info method=GET path=/css/bootstrap.css host=obscure-meadow-1247.herokuapp.com request_id=1989958b-9e7e-4d93-a66e-99e831fa16df fwd="92.44.31.242" dyno=web.1 connect=2ms service=14ms status=200 bytes=121513
+2014-03-17T23:01:54.811973+00:00 app[web.1]: [90mGET /vendor/toastr/toastr.css [32m200 [90m4ms - 6.62kb[0m
+2014-03-17T23:01:54.813875+00:00 app[web.1]: [90mGET /css/bootstrap.css [32m200 [90m5ms - 118.38kb[0m
+2014-03-17T23:01:54.816493+00:00 app[web.1]: [90mGET /css/site.css [32m200 [90m4ms - 0b[0m
+2014-03-17T23:01:54.976466+00:00 heroku[router]: at=info method=GET path=/vendor/jquery/dist/jquery.js host=obscure-meadow-1247.herokuapp.com request_id=10175bff-d13a-413e-bece-0f9599dc1afb fwd="92.44.31.242" dyno=web.1 connect=2ms service=23ms status=200 bytes=245255
+2014-03-17T23:01:55.014191+00:00 heroku[router]: at=info method=GET path=/app/app.js host=obscure-meadow-1247.herokuapp.com request_id=80b68e3a-74e0-4b8e-8e29-46ed9cf6c906 fwd="92.44.31.242" dyno=web.1 connect=2ms service=10ms status=200 bytes=664
+2014-03-17T23:01:54.960380+00:00 app[web.1]: [90mGET /vendor/angular-resource/angular-resource.js [32m200 [90m4ms - 22.87kb[0m
+2014-03-17T23:01:54.968198+00:00 app[web.1]: [90mGET /vendor/jquery/dist/jquery.js [32m200 [90m17ms - 239.22kb[0m
+2014-03-17T23:01:54.989756+00:00 app[web.1]: [90mGET /vendor/angular/angular.js [32m200 [90m34ms - 724.19kb[0m
+2014-03-17T23:01:54.966205+00:00 heroku[router]: at=info method=GET path=/vendor/angular-resource/angular-resource.js host=obscure-meadow-1247.herokuapp.com request_id=e51fd4d6-ed3e-4934-a31f-b7a3f2125f7a fwd="92.44.31.242" dyno=web.1 connect=1ms service=9ms status=200 bytes=23712
+2014-03-17T23:01:55.003576+00:00 app[web.1]: [90mGET /app/app.js [32m200 [90m4ms - 378b[0m
+2014-03-17T23:01:55.003779+00:00 app[web.1]: [90mGET /vendor/angular-route/angular-route.js [32m200 [90m3ms - 31.67kb[0m
+2014-03-17T23:01:57.726526+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=obscure-meadow-1247.herokuapp.com request_id=d82c7777-8570-434a-8d6b-3f21d5d462e1 fwd="92.44.31.242" dyno=web.1 connect=2ms service=4ms status=200 bytes=886
+2014-03-17T23:01:57.681734+00:00 heroku[router]: at=info method=GET path=/partials/main host=obscure-meadow-1247.herokuapp.com request_id=39485abb-e60b-43bc-acce-8e7718939cce fwd="92.44.31.242" dyno=web.1 connect=13ms service=11ms status=200 bytes=220
+2014-03-17T23:01:57.673642+00:00 app[web.1]: [90mGET /partials/main [32m200 [90m1ms - 42b[0m
+2014-03-17T23:01:57.724410+00:00 app[web.1]: [90mGET /favicon.ico [32m200 [90m1ms - 706b[0m
+2014-03-17T23:02:21.736498+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=obscure-meadow-1247.herokuapp.com request_id=f2534775-6461-480a-912a-61eeaa8e66ad fwd="92.44.31.242" dyno=web.1 connect=9ms service=12ms status=304 bytes=129
+2014-03-17T23:02:21.721580+00:00 app[web.1]: [90mGET /favicon.ico [36m304 [90m2ms[0m
+2014-03-17T23:00:37.777520+00:00 heroku[router]: at=info method=GET path=/ host=obscure-meadow-1247.herokuapp.com request_id=c1671229-ee4d-4f2c-8528-8d7b3052858a fwd="92.44.31.242" dyno=web.1 connect=2ms service=406ms status=200 bytes=886
+2014-03-17T23:00:38.040154+00:00 heroku[router]: at=info method=GET path=/css/bootstrap.css host=obscure-meadow-1247.herokuapp.com request_id=11e6a640-3c4f-4952-8f34-e6ac63c1a17a fwd="92.44.31.242" dyno=web.1 connect=1ms service=14ms status=200 bytes=121513
+2014-03-17T23:01:54.644849+00:00 heroku[router]: at=info method=GET path=/ host=obscure-meadow-1247.herokuapp.com request_id=dce753da-9d88-405d-b6f6-d7136bb85b35 fwd="92.44.31.242" dyno=web.1 connect=3ms service=11ms status=200 bytes=886
+2014-03-17T23:03:40.779683+00:00 heroku[router]: at=info method=GET path=/ host=obscure-meadow-1247.herokuapp.com request_id=497404b1-043f-4f93-a627-09d360aacaff fwd="92.44.31.242" dyno=web.1 connect=1ms service=5ms status=304 bytes=129
+2014-03-17T23:03:40.775945+00:00 app[web.1]: [90mGET / [36m304 [90m1ms[0m
+2014-03-17T23:03:40.950706+00:00 heroku[router]: at=info method=GET path=/css/bootstrap.css host=obscure-meadow-1247.herokuapp.com request_id=057218a7-1c72-49f6-b4ea-0c407474513f fwd="92.44.31.242" dyno=web.1 connect=3ms service=7ms status=304 bytes=240
+2014-03-17T23:03:41.095653+00:00 heroku[router]: at=info method=GET path=/vendor/jquery/dist/jquery.js host=obscure-meadow-1247.herokuapp.com request_id=13d4ebea-b694-438b-a0c1-4bd20bceefdd fwd="92.44.31.242" dyno=web.1 connect=2ms service=7ms status=304 bytes=240
+2014-03-17T23:03:41.091095+00:00 app[web.1]: [90mGET /vendor/jquery/dist/jquery.js [36m304 [90m2ms[0m
+2014-03-17T23:03:40.942474+00:00 app[web.1]: [90mGET /css/bootstrap.css [36m304 [90m2ms[0m
+2014-03-17T23:03:41.095987+00:00 heroku[router]: at=info method=GET path=/vendor/angular-resource/angular-resource.js host=obscure-meadow-1247.herokuapp.com request_id=b0926a73-db76-44fe-a61b-adc8112433ee fwd="92.44.31.242" dyno=web.1 connect=1ms service=4ms status=304 bytes=239
+2014-03-17T23:03:41.102425+00:00 heroku[router]: at=info method=GET path=/vendor/toastr/toastr.css host=obscure-meadow-1247.herokuapp.com request_id=96380d0e-4670-4da6-94f9-a39632d34ace fwd="92.44.31.242" dyno=web.1 connect=2ms service=5ms status=304 bytes=238
+2014-03-17T23:03:41.102585+00:00 heroku[router]: at=info method=GET path=/vendor/angular/angular.js host=obscure-meadow-1247.herokuapp.com request_id=55bb593b-ccf3-411b-a4ea-f8b44b255eea fwd="92.44.31.242" dyno=web.1 connect=3ms service=4ms status=304 bytes=240
+2014-03-17T23:03:41.100367+00:00 heroku[router]: at=info method=GET path=/css/site.css host=obscure-meadow-1247.herokuapp.com request_id=add2ac48-e32f-43c4-8d33-e3b4717cfc48 fwd="92.44.31.242" dyno=web.1 connect=3ms service=7ms status=304 bytes=235
+2014-03-17T23:03:41.092645+00:00 app[web.1]: [90mGET /vendor/angular/angular.js [36m304 [90m1ms[0m
+2014-03-17T23:03:41.098966+00:00 app[web.1]: [90mGET /vendor/angular-route/angular-route.js [36m304 [90m0ms[0m
+2014-03-17T23:03:41.094037+00:00 app[web.1]: [90mGET /vendor/toastr/toastr.css [36m304 [90m1ms[0m
+2014-03-17T23:03:41.092310+00:00 app[web.1]: [90mGET /vendor/angular-resource/angular-resource.js [36m304 [90m1ms[0m
+2014-03-17T23:03:41.094939+00:00 app[web.1]: [90mGET /css/site.css [36m304 [90m1ms[0m
+2014-03-17T23:03:41.452607+00:00 heroku[router]: at=info method=GET path=/partials/main host=obscure-meadow-1247.herokuapp.com request_id=935e8052-cb20-45b2-b7a5-c98b200ea54b fwd="92.44.31.242" dyno=web.1 connect=2ms service=5ms status=304 bytes=128
+2014-03-17T23:03:41.473304+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=obscure-meadow-1247.herokuapp.com request_id=e000da9e-e50e-49e1-a814-53cb85cac1ed fwd="92.44.31.242" dyno=web.1 connect=3ms service=4ms status=304 bytes=129
+2014-03-17T23:03:41.258176+00:00 app[web.1]: [90mGET /app/app.js [36m304 [90m1ms[0m
+2014-03-17T23:03:41.260411+00:00 heroku[router]: at=info method=GET path=/app/app.js host=obscure-meadow-1247.herokuapp.com request_id=0f596c1d-04bf-4e9b-9536-d38ed7f887dc fwd="92.44.31.242" dyno=web.1 connect=3ms service=5ms status=304 bytes=237
+2014-03-17T23:03:41.449102+00:00 app[web.1]: [90mGET /partials/main [36m304 [90m1ms[0m
+2014-03-17T23:03:41.471053+00:00 app[web.1]: [90mGET /favicon.ico [36m304 [90m0ms[0m
+2014-03-17T23:03:41.109383+00:00 heroku[router]: at=info method=GET path=/vendor/angular-route/angular-route.js host=obscure-meadow-1247.herokuapp.com request_id=2e0eb62c-3076-4fe8-b306-27e56b6c8001 fwd="92.44.31.242" dyno=web.1 connect=2ms service=4ms status=304 bytes=239
+2014-03-18T00:09:08.950634+00:00 heroku[web.1]: Idling
+2014-03-18T00:09:08.951300+00:00 heroku[web.1]: State changed from up to down
+2014-03-18T00:09:11.914276+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2014-03-18T00:09:14.612268+00:00 heroku[web.1]: Process exited with status 143
