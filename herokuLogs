@@ -1,31 +1,3 @@
-2014-03-17T22:57:55.018073+00:00 heroku[api]: Enable Logplex by cenkayberkin@gmail.com
-2014-03-17T22:57:55.018145+00:00 heroku[api]: Release v2 created by cenkayberkin@gmail.com
-2014-03-17T22:58:43.076957+00:00 heroku[api]: Add NODE_ENV config by cenkayberkin@gmail.com
-2014-03-17T22:58:43.077045+00:00 heroku[api]: Release v3 created by cenkayberkin@gmail.com
-2014-03-17T22:59:37+00:00 heroku[slug-compiler]: Slug compilation started
-2014-03-17T23:00:21+00:00 heroku[slug-compiler]: Slug compilation finished
-2014-03-17T23:00:21.004669+00:00 heroku[api]: Deploy 26bc455 by cenkayberkin@gmail.com
-2014-03-17T23:00:20.869492+00:00 heroku[api]: Scale to web=1 by cenkayberkin@gmail.com
-2014-03-17T23:00:25.203134+00:00 heroku[web.1]: Starting process with command `node server.js`
-2014-03-17T23:00:21.004853+00:00 heroku[api]: Release v4 created by cenkayberkin@gmail.com
-2014-03-17T23:00:26.746084+00:00 app[web.1]: connect.multipart() will be removed in connect 3.0
-2014-03-17T23:00:26.746253+00:00 app[web.1]: visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
-2014-03-17T23:00:26.774025+00:00 app[web.1]: Listening on port 42965...
-2014-03-17T23:00:26.746701+00:00 app[web.1]: connect.limit() will be removed in connect 3.0
-2014-03-17T23:00:26.847625+00:00 app[web.1]: multivision db opened
-2014-03-17T23:00:27.306496+00:00 heroku[web.1]: State changed from starting to up
-2014-03-17T23:00:29.530650+00:00 heroku[web.1]: Starting process with command `node server.js`
-2014-03-17T23:00:33.930612+00:00 app[web.1]: Listening on port 49020...
-2014-03-17T23:00:33.879133+00:00 app[web.1]: connect.multipart() will be removed in connect 3.0
-2014-03-17T23:00:33.879359+00:00 app[web.1]: visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
-2014-03-17T23:00:33.879924+00:00 app[web.1]: connect.limit() will be removed in connect 3.0
-2014-03-17T23:00:34.120428+00:00 app[web.1]: multivision db opened
-2014-03-17T23:00:37.555117+00:00 heroku[web.1]: Stopping all processes with SIGTERM
-2014-03-17T23:00:37.774571+00:00 app[web.1]: [90mGET / [32m200 [90m400ms - 706b[0m
-2014-03-17T23:00:38.034195+00:00 app[web.1]: [90mGET /css/bootstrap.css [32m200 [90m9ms - 118.38kb[0m
-2014-03-17T23:00:38.267865+00:00 heroku[router]: at=info method=GET path=/css/site.css host=obscure-meadow-1247.herokuapp.com request_id=9ffd94e1-4829-49f6-973e-6c6425c40f41 fwd="92.44.31.242" dyno=web.1 connect=6ms service=84ms status=200 bytes=283
-2014-03-17T23:00:38.262774+00:00 heroku[router]: at=info method=GET path=/vendor/angular-resource/angular-resource.js host=obscure-meadow-1247.herokuapp.com request_id=b14fbd76-ea59-43bf-a1e8-4ab2afacd79b fwd="92.44.31.242" dyno=web.1 connect=11ms service=49ms status=200 bytes=23712
-2014-03-17T23:00:38.260596+00:00 app[web.1]: [90mGET /css/site.css [32m200 [90m82ms - 0b[0m
 2014-03-17T23:00:38.175256+00:00 app[web.1]: [90mGET /vendor/toastr/toastr.css [32m200 [90m3ms - 6.62kb[0m
 2014-03-17T23:00:38.259951+00:00 app[web.1]: [90mGET /vendor/angular-resource/angular-resource.js [32m200 [90m7ms - 22.87kb[0m
 2014-03-17T23:00:38.280669+00:00 app[web.1]: [90mGET /vendor/jquery/dist/jquery.js [32m200 [90m9ms - 239.22kb[0m
@@ -93,3 +65,37 @@
 2014-03-18T00:09:08.951300+00:00 heroku[web.1]: State changed from up to down
 2014-03-18T00:09:11.914276+00:00 heroku[web.1]: Stopping all processes with SIGTERM
 2014-03-18T00:09:14.612268+00:00 heroku[web.1]: Process exited with status 143
+2014-03-18T09:43:55+00:00 heroku[slug-compiler]: Slug compilation started
+2014-03-18T09:44:04+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-03-18T09:44:04.354389+00:00 heroku[web.1]: State changed from down to starting
+2014-03-18T09:44:06.366126+00:00 heroku[web.1]: Starting process with command `node server2.js`
+2014-03-18T09:44:07.552392+00:00 app[web.1]: 
+2014-03-18T09:44:07.554539+00:00 app[web.1]: module.js:340
+2014-03-18T09:44:07.555200+00:00 app[web.1]:     throw err;
+2014-03-18T09:44:07.555200+00:00 app[web.1]:           ^
+2014-03-18T09:44:07.556967+00:00 app[web.1]: Error: Cannot find module '/app/server2.js'
+2014-03-18T09:44:07.556967+00:00 app[web.1]:     at Function.Module._resolveFilename (module.js:338:15)
+2014-03-18T09:44:07.556967+00:00 app[web.1]:     at Function.Module.runMain (module.js:497:10)
+2014-03-18T09:44:07.556967+00:00 app[web.1]:     at node.js:902:3
+2014-03-18T09:44:07.556967+00:00 app[web.1]:     at Function.Module._load (module.js:280:25)
+2014-03-18T09:44:07.556967+00:00 app[web.1]:     at startup (node.js:119:16)
+2014-03-18T09:44:04.025480+00:00 heroku[api]: Deploy 0d07090 by cenkayberkin@gmail.com
+2014-03-18T09:44:04.025689+00:00 heroku[api]: Release v5 created by cenkayberkin@gmail.com
+2014-03-18T09:44:08.782273+00:00 heroku[web.1]: Process exited with status 8
+2014-03-18T09:44:08.795543+00:00 heroku[web.1]: State changed from starting to crashed
+2014-03-18T09:44:08.796288+00:00 heroku[web.1]: State changed from crashed to starting
+2014-03-18T09:44:11.008073+00:00 heroku[web.1]: Starting process with command `node server2.js`
+2014-03-18T09:44:12.804873+00:00 app[web.1]: 
+2014-03-18T09:44:12.805578+00:00 app[web.1]: module.js:340
+2014-03-18T09:44:12.805961+00:00 app[web.1]:     throw err;
+2014-03-18T09:44:12.807789+00:00 app[web.1]:           ^
+2014-03-18T09:44:12.812081+00:00 app[web.1]:     at Function.Module._resolveFilename (module.js:338:15)
+2014-03-18T09:44:12.812081+00:00 app[web.1]:     at Function.Module._load (module.js:280:25)
+2014-03-18T09:44:12.812081+00:00 app[web.1]:     at Function.Module.runMain (module.js:497:10)
+2014-03-18T09:44:12.812081+00:00 app[web.1]:     at startup (node.js:119:16)
+2014-03-18T09:44:12.812081+00:00 app[web.1]: Error: Cannot find module '/app/server2.js'
+2014-03-18T09:44:12.812081+00:00 app[web.1]:     at node.js:902:3
+2014-03-18T09:44:14.057845+00:00 heroku[web.1]: Process exited with status 8
+2014-03-18T09:44:14.069150+00:00 heroku[web.1]: State changed from starting to crashed
+2014-03-18T09:44:29.674863+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=obscure-meadow-1247.herokuapp.com request_id=76b9b156-ebe1-4386-aa67-5872fd444e5e fwd="92.44.31.242" dyno= connect= service= status=503 bytes=
+2014-03-18T09:44:30.237216+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=obscure-meadow-1247.herokuapp.com request_id=6f0f286a-fa79-4292-864e-de4a2b71b170 fwd="92.44.31.242" dyno= connect= service= status=503 bytes=
